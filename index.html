@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <title>Decodificador</title>
+    </head>
+
+    <body>
+                <h1>Bem vindo ao decodificador de texto</h1>
+        <div id="esquerdo"> <!---dividindo a pagina-->
+            <textarea class="text-input" id="textInput" placeholder="Digite seu texto"></textarea>
+        </div>
+        
+        <div class="botões">
+            <button class="encrypt-button" id="encrypt-button" onclick="cript()">Criptografar</button><br>
+            <br>
+            <button class="decrypt-button" id="decrypt-button" onclick="descript()">Descriptografar</button><br>
+            <br>
+            <button class="copy-button" id="copy-button" onclick="copiar()">Copiar</button><br>
+        </div>
+
+        <div id="direito">
+            <textarea class="text-output" id="textOutput" disabled></textarea>
+            
+        </div>
+
+        <div id="rodapé">
+            <a href='https://www.linkedin.com/in/pedrijs/' target="_blank"><button id="Linkedin"><img src="https://cdn.icon-icons.com/icons2/3041/PNG/512/linkedin_logo_icon_189225.png" alt="Link para o Linkedin do desenvolvedor"></button></a>
+            <a href="https://github.com/Pedrigl" target="_blank"><button id="Github"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Link para o github do desenvolvedor"></button></a>
+            <b id="crédito">Este projeto foi desenvolvido por Pedro Gabriel Cruz Lima</b>
+
+        </div>
+    
+    </body>        
+
+
+</html>
