@@ -26,9 +26,13 @@ function descript() {
 
 //função pra copiar
 function copiar() {
-    document.getElementById('textOutput').select();
-    document.execCommand('copy');
+
+    var content = document.getElementById('textOutput');
     
+    content.select();
+    document.execCommand('copy');
+
+    alert("Copied!");
 }
 
 //alterar o foco assim que a pagina for carregada
