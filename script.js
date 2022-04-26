@@ -27,10 +27,8 @@ function descript() {
 //função pra copiar
 function copiar() {
 
-    var content = document.getElementById('textOutput');
-    
-    content.select();
-    document.execCommand('copy');
+    var content = document.getElementById('textOutput').value;
+    navigator.clipboard.writeText(content)
 
     alert("Copied!");
 }
